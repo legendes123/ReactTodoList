@@ -1,0 +1,476 @@
+.modal{
+    possition:fixed;
+    margin: 7% auto;
+    width: 550px;
+    height: 550px;
+    align-items: center;
+    background: rgba(0,0,0,0.1);
+    border-radius: 20px;
+
+
+}
+.modal__input{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    height: 15%;
+    width: 80%;
+    margin: 5% 10%;
+    font-size: calc(0.7em + 0.3vw);
+    border-radius: 15px;
+    background: white;
+    outline: none;
+}
+
+.modal__button{
+    height: 15%;
+    width: 80%;
+    margin: 3% 11%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+
+    background-color: black;
+    color: white;
+    font-size: calc(1em + 0.3vw);
+    text-decoration: none;
+    border: 0;
+    border-radius: 10px;
+}
+.p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    font-size: calc(2em + 0.3vw);
+    text-align: center;
+
+}
+.p__error{
+    font-size: calc(1em + 0.3vw);
+    text-align: center;
+    color: red;
+}
+.table {
+    width: 80%;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.table__th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+    width: 33%;
+
+}
+.table__td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+    text-align: center;
+}
+.a{
+    font-size: calc(2em + 0.3vw);
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin-left:25%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------
+	Main Section
+-----------------------------*/
+
+
+
+
+/*----------------------------
+	The Footer
+-----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+.promo{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+.promo__media{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size:cover ;
+
+
+
+}
+.promo__media::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background-color: rgba(0,0,0,0.7);
+    backdrop-filter: blur(4px)
+
+
+}
+.promo__media video{
+    min-width: 100%;
+    min-height: 100%;
+}
+.promo__content{
+    z-index: 10;
+    text-align: center;
+
+}
+.promo__title{
+    font-size: calc(1em + 5vw);
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.promo__discription{
+    font-size: calc(1em + 1vw);
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+
+    display: inline-flex;
+    width: 75%;
+
+}
+.promo__discription li{
+    padding: 5% 10%;
+    list-style-type: none;
+}
+.button{
+    margin: 10% 0;
+}
+.button a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: calc(1em + 3vw);
+    font-family: 'Montserrat', sans-serif;
+    border:
+            1px
+            solid
+            aliceblue;
+
+
+
+}
+.promo__discription img{
+    margin: 15% auto;
+    width: 300px;
+    height: 300px;
+}
+
+.reviews{
+    width: 100%;
+    height: 70vh;
+    display: inline-flex;
+
+    margin-top: 10%;
+
+}
+
+.reviews__elem{
+    width: 33%;
+    height: 100%;
+}
+.reviews__container{
+    display: inline-flex;
+    margin: 0 auto;
+    width: 75%;
+
+}
+.reviews__img{
+
+    margin: 0 auto;
+}
+.reviews__img img{
+
+    max-width: 80%;
+    max-height: 33%;
+    margin: 0 5%;
+}
+.composition__button a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.reviews__name{
+    font-weight: bold;
+
+    font-size: calc(1em + 1vw);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.reviews__discription{
+    font-size: calc(1em + 0.5vw);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.promo__characteristic{
+    height: 15%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.promo__button a {
+    color: black;
+    text-decoration: none;
+}
+.promo__characteristic li {
+    font-weight: bold;
+
+    list-style-type: circle;
+    display: inline-block;
+    margin-right: 10%;
+    font-size: calc(1em + 0.5vw);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.promo__button{
+    height: 15%;
+}
+.promo__product{
+    margin-top: 10%;
+    height: 100vh;
+    text-align: center;
+
+}
+.promo__container{
+    width: 60%;
+    display: inline-flex;
+    height: 70%;
+}
+.promo__img{
+    width: 70%;
+    height: 100%;
+}
+.promo__p{
+
+    width: 30%;
+    height: 100%;
+    font-size: calc(1em + 0.9vw);
+    font-family: 'Montserrat', sans-serif;
+
+
+
+    color: black;
+}
+.promo__button button{
+    text-decoration: none;
+    font-size: calc(1em + 2vw);
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid black;
+}
+.form{
+    height: 120vh;
+}
+
+.timer{
+    width: 100%;
+    height: 30%;
+    display: inline-flex;
+
+}
+.form__container{
+    width: 100%;
+    height: 60%;
+    display: inline-flex;
+
+}
+.form__revocation{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.form__img{
+    width: 50%;
+    height: 100%;
+}
+
+
+.form__revocation input{
+    border: 2px solid black;
+    width: 50%;
+    height: 10%;
+    border-radius: 15px;
+    padding-left: 15px;
+    background: white;
+    margin: 2% auto;
+    outline: none;
+
+
+}
+.form__revocation button{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 10%;
+    border: 0;
+    border-radius: 10px;
+
+}
+.form__revocation a{
+    color: white;
+    font-size: calc(1em + 0.3vw);
+    text-decoration: none;
+    border: 0;
+
+
+
+}
+.promo__img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.form__p{
+    font-size: calc(1em + 5vw);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 10% 0;
+
+}
+.form__img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.timer__price{
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+.timer__container{
+    height: 100%;
+    width: 50%;
+
+}
+
+.price p {
+    transition: 1s;
+
+    font-size: calc(1em + 1.3vw);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.price_now p{
+    font-size: calc(1em + 1vw);
+    color: red;
+    text-decoration: line-through;
+
+
+
+}
+.price  :hover{
+    transform: scale(2);
+
+
+}
+
+
+
+@media (max-width:900px){
+    .a{
+        font-size: calc(1em + 1vw);
+        margin-left: 15%;
+
+    }
+    .reviews{
+        height: 200vh;
+    }
+    .reviews__container{
+        display: block;
+    }
+    .reviews__elem{
+        height: 33%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .promo__container{
+        width: 100%;
+    }
+
+
+    .promo__discription{
+        width: 100%;
+    }
+    .promo__discription img{
+        margin: 10% auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    .promo__img{
+        width: 50%;
+    }
+    .promo__p{
+        width: 50%;
+    }
+
+
+}
+@media (max-width:1340px){
+    .promo__characteristic{
+        margin: 7% auto;
+    }
+    .promo__characteristic li{
+        display: block;
+        list-style-type:none;
+        margin: 0;
+    }
+}

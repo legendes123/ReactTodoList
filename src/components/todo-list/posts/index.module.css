@@ -1,0 +1,63 @@
+.table{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+
+.edit{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #CD5C5C;
+}
+.table__th {
+    word-break: break-all;
+    width: 150px;
+    text-align: center;
+}
+
+.table img {
+    max-width: 30px;
+
+
+}
+
+.delete{
+    width: 170px;
+    height: 40px;
+    background-color: #7FFFD4;
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.delete__button{
+    background-color: #7FFFD4;
+    border: 0;
+
+}
+.edit__button{
+    background-color: #CD5C5C;
+    border: 0;
+
+}
+.container__posts{
+    opacity: 0.4;
+
+
+}
+.close{
+
+}
+.close__container{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+
+
+}
